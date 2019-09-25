@@ -60,8 +60,10 @@ if __name__ == '__main__':
 
 with open(output, 'w') as outputfile:
     outputfile.write(str(replace_cds(cds_list)))
-    
-    import csv
+  
+
+
+import csv
 
 def read_cds_split(txtfile):
     with open(txtfile, 'r') as cds_data:
